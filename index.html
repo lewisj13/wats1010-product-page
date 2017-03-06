@@ -3,52 +3,183 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Store of all your API needs">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
-        <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
-
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
+       
+        
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-        <!-- End Bootstrap CSS Framework -->
-
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
+        <link rel="stylesheet" href="main.css"> 
+        
+ 
+      <title>API Superstore</title>
+     
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="favicon" href="favicon.ico">
 
     </head>
     <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+      
+      <header>
+       
+        <div class="page-header">
+            
+              <IMG SRC="assets/logos/api_superstore_sqlogo_bg.png" WIDTH=40 HEIGHT=40>
+         
+              <h1>API SUPERSTORE </h1>
+          
+              <p>Helping program since 1998</p>
+          </div>
+            
+               <!--Navbar -->
+    <nav class="navbar navbar-defa">
+           <div class="container">
+           <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+     
+             </div>
+   
+            <div class="collapse navbar-collapse" id="Navbar">
+                       <ul class="nav navbar-nav navbar-left">
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#features">Features</a></li>
+                       <li><a href="#testimonials">Testimonials</a></li> 
+                       <li><a href="#contactus">Contact US</a></li> 
+                       <li><a href="login">Login</a></li>
+                        </ul>
+            </div>
+            </div>
+     
+           </nav>
+  
+    </header>
+        
+  <!-- Video/ Top of page -->
+   
+       <section id="home">
+          <div class="container-fluid bg-1 text-center">
+            <h2 class="margin">Experience API and what it can offer you!</h2>
+  
+                 
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen>
+        
+          </iframe>
+        
+          <p>
+             Start here to ger your API!
+        </p>
+        
+        <button type="button">Download Now!</button>
+         
+          </div>
+   
+      </section>
+       
+  <!-- About -->
+          
+       <section id="about">  
+         <div class="container-fluid bg-2 text-center">
+  <h3 class="margin">About Us</h3>
+  <p>API is here to make all your programming needs easier. API superstore gives you the building blocks to create the perfect application and website. Join us now to have smooth transitions.</p>
+     
+           <div class="thumb1">
 
-        <!-- TODO: Create an area to put the explainer video. -->
+    <IMG SRC="assets/misc/AdobeStock_117678863 [Converted].png" WIDTH=400 HEIGHT=400>
+           </div>
+     </div>
+      </section>
+     
+ <!-- Features -->
+       <section id="features">
+         
+        <div class="container-fluid bg-2 text-center">
+         <h2>Features </h2>
+         
+         <ul>
+           <li>Built to last</li>
+           <li>Works on several platforms</li>
+           <li>Upgradability</li>
+           <li>Vast Knowledge</li>
+         </ul>
+      
+        
+         <ul>
+           <li>2 year warranty</li>
+           <li>Paymnet plan available</li>
+           <li>Sign Up and save!</li>
+           <li>24/7 customer service</li>
+           
+         </ul>
+         </div>
+      </section>
+      
+ <!-- Testimonials -->
+     <section id="testimonials">
+        
+       <div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Testimonials</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="thumb2">
+      <img src="assets/misc/AdobeStock_120853511.jpeg" class="img-responsive margin" style="width:75%" alt="Image">
+          <p> Great Customer Service! Can't wait to use more of their products!</p>
+      </div>
+    </div>
+    <div class="col-sm-4">      
+      <div class="thumb3">
+      <img src="assets/misc/AdobeStock_780491.jpeg" class="img-responsive margin" style="width:75%" alt="Image">
+      </div>
+       <p>API makes my life easy!</p>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="thumb4">
+      <img src="assets/misc/AdobeStock_91825905.jpeg" class="img-responsive margin" style="width:75%" alt="Image">
+      </div>
+        <p> My business has never ran better. I recommend it to all my business associates.</p>
+    </div>
+  </div>
+</div>
+       
+      </section> 
+     
+<!-- Contact Us -->         
+     <section id="contactus">
+       
+       <form>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="name" id="name" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email"  id="email" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="Message">Message</label>
+    <input type="Message" id="message">
+  </div> 
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+       
+  
+          </section> 
+         
+          <footer class="container-fluid bg-4 text-center">
+      
+            <section id="hours">
+            Contact us anytime with our 24/7 customer service<br>
+             <br>
+            </section> 
+            
+            <section id="copyright">
+            Made by Jamie Lewis for Seattle University Web Dev Program 2017
+            </section>
+                  
+      </footer> 
+     
 
-        <!-- TODO: Create an area to put the long product description. -->
-
-        <!-- TODO: Create an area to put customer testimonials. -->
-
-        <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
     </body>
 </html>

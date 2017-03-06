@@ -2,7 +2,18 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+   
+    color: black;
+  background-color: #32CAFC;
+}
+
+
+.page-header {
+  background-color: grey;
+ 
+ 
+}
+
+.features ul {
+  list-style-type: none;
 }
